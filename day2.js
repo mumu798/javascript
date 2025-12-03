@@ -115,7 +115,7 @@ typeof Math; // "object"  (1)
 console.log("typeof例子:", typeof Math);
 
 typeof null; // "object"  (2)
-console.log("typeof例子:", typeof null);
+console.log("typeof null例子: 返回", typeof null, "历史遗留问题");
 
 typeof alert; // "function"  (3)
 console.log("typeof例子:", typeof alert);
