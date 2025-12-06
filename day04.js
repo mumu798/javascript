@@ -5,16 +5,16 @@
 //加减就和常规的一样
 let a = 10;
 let b = 3;
-console.log(a + b);
-console.log(a - b);
+console.log(a + b);// 13
+console.log(a - b);// 7
 
 //乘除也是一样
-console.log(a * b);
-console.log(a / b);
+console.log(a * b);// 30
+console.log(a / b);// 3.3333333333333335
 //取余
-console.log(a % b);
+console.log(a % b);// 1
 //幂
-console.log(a ** b);
+console.log(a ** b);// 1000
 
 /**
  * 二元运算符 + 连接字符串
@@ -24,10 +24,10 @@ console.log(a ** b);
 let str1 = "Hello";
 let str2 = "World";
 let num = 2024;
-console.log("", str1 + " " + str2);
-console.log(str1 + " " + num);
-console.log(str1 + num);
-console.log(num);
+console.log("", str1 + " " + str2);// Hello World
+console.log(str1 + " " + num);// Hello 2024
+console.log(str1 + num);// Hello2024
+console.log(num);// 2024
 
 //+是唯一一个可以连接字符串的运算符
 //其他的数学运算符会把字符串转换为数字
@@ -38,9 +38,9 @@ console.log("6" / "2"); // 3，将两个运算元都转换为数字
  * 数字转化，一元运算符 +
  * + 可以将字符串转换为数字类型
  */
-console.log(+"123");
-console.log(+true);
-console.log(+"");
+console.log(+"123");// 123
+console.log(+true);// 1
+console.log(+"");// 0
 
 //字符串转化数字的另一种方法
 let c = "123";
@@ -82,14 +82,16 @@ let f = j++;
 console.log(f); // 1，先赋值为1，然后j自增为2
 
 let i = ++j; // j先自增为3，然后赋值给i
-console.log(i);
+console.log(i);// 3
+
+//--同理
 
 let m = 10;
 m++;
-console.log(m);
+console.log(m);// 11
 m--;
-console.log(m);
-console.log(++m);
+console.log(m);// 10
+console.log(++m);// 11
 let numa = 0;
 function add() {
   numa++;
