@@ -76,33 +76,38 @@
  */
 
 // 函数声明:主代码流中的函数
-function sum(a, b) {
-  let result = a + b;
+// function sum(a, b) {
+//   let result = a + b;
 
-  return result;
-}
+//   return result;
+// }
 // 函数表达式： 表达式上下文中的函数
-let sum = function (a, b) {
-  let result = a + b;
+// let sum = function (a, b) {
+//   let result = a + b;
 
-  return result;
-};
+//   return result;
+// };
 // 箭头函数
 // 表达式在右侧
-let sum = (a, b) => a + b;
+// let sum = (a, b) => a + b;
 
 // 或带 {...} 的多行语法，此处需要 return：
-let sum = (a, b) => {
-  // ...
-  return a + b;
-};
+// let sum = (a, b) => {
+//   // ...
+//   return a + b;
+// };
 
 // 没有参数
-let sayHi = () => alert("Hello");
+// let sayHi = () => alert("Hello");
 
 // 有一个参数
-let double = (n) => n * 2;
+// let double = (n) => n * 2;
 
 // 函数可能具有局部变量：在函数内部声明的变量，或在其参数列表中。这类变量只在函数内部可见。
 // 参数可以有默认值：function sum(a = 1, b = 2) {...}。
 // 函数总是返回一些东西。如果没有 return 语句，那么返回的结果是 undefined。
+// 打开控制台来查看
+for (let i = 0; i < 5; i++) {
+  debugger;
+  console.log("value", i);
+}
